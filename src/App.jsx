@@ -36,12 +36,16 @@ function Calculator() {
         value={friendService}
         onChange={(e) => setFriendService(Number(e.target.value))}
       />
-      <Result bill={bill} service={service} friendService={friendService} />
-      <ResetBtn
-        setBill={setBill}
-        setFriendService={setFriendService}
-        setService={setService}
-      />
+      {bill > 0 && (
+        <>
+          <Result bill={bill} service={service} friendService={friendService} />
+          <ResetBtn
+            setBill={setBill}
+            setFriendService={setFriendService}
+            setService={setService}
+          />
+        </>
+      )}
     </>
   );
 }
