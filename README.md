@@ -5,7 +5,7 @@ This is a simple Tip Calculator application built with React and Vite. The appli
 
 # Live Site
 
-![Live Site](https://tip-calculatorv1.vercel.app/)
+[Live Site](https://tip-calculatorv1.vercel.app/)
 
 ## Features
 
